@@ -27,7 +27,7 @@ const SignIn = () => {
     setClicked(true)
     try {
       //post /login
-      const { data } = await axios.post(`${"https://bhbackend.onrender.com/api/v1/auth/login"}/login`, { email, password })
+      const { data } = await axios.post(`${BASE_URL}/login`, { email, password })
       if (data.success) {
         setClicked(false)
         //redirect to inspection

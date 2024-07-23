@@ -53,7 +53,7 @@ const Signup = () => {
     //send post request
 
     try {
-      const { data } = await axios.post(`${"https://bhbackend.onrender.com/api/v1/auth/register"}/register`, { ...user })
+      const { data } = await axios.post(`${BASE_URL}/register`, { ...user })
       if (data.success) {
         // toast.success("Account Created")
         //navigate to login 
