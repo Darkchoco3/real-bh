@@ -1,0 +1,48 @@
+.hero {
+    background: url('../assets/office.svg');
+    background-size: cover;
+    height: 60vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  }
+  .color{
+color: white;
+
+  }
+  .browse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh ;
+
+  }
+  .txt{
+    font-size: 48px;
+  }
+  .hero-section h1 {
+    font-size: 48px;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 32px;
+    }
+  
+    .hero-section p {
+      font-size: 18px;
+   } 
+   .txt{
+    font-size: 20px;
+    height: 5vh;
+   }
+   .browse{
+     margin-top: 2rem; 
+    }
+  }

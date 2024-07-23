@@ -1,0 +1,20 @@
+a {
+    text-decoration: none;
+  }
+  
+  .usersignup-checkbox {
+    width: 1rem !important;
+    height: 1rem !important;
+    align-items: center;
+  }
+  
+  .dline {
+    width: 130px;
+    height: 3px;
+    background-color: grey;
+  }
+  
+  .google-icon {
+    width: 35px;
+  }
+  
